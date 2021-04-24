@@ -23,7 +23,7 @@
 #include "WiFi.h"
 TaskHandle_t Task1;
 const char *ssid = "ESP32AP";
-const char *password = "8888888888";
+const char *password = "yourPW";
 WiFiServer wifiServer(1111);
 
 int new_gps_message = 0;
